@@ -43,6 +43,7 @@ CREATE TABLE "Doctor" (
 
 insert into Patient (P_Firstname, P_surname, P_Username, User_Password) values ('Nathan','Peacock','Cheemz','4dff4ea340f0a823f15d3f4f01ab62eae0e5da579ccb851f8db9dfe84c58b2b37b89903a740e1ee172da793a6e79d560e5f7f9bd058a12a280433ed6fa46510a');
 insert into Doctor (Dr_Firstname, Dr_Surname, Dr_Contact) values ('James','Peacock','0800001066');
+insert into Appointment (DateOFBooking, Appointment_Date, Appointment_Duration,Dr_ID,PatientID) values ('21/10/2025','21/10/2024','10',1,1);
 
 
 
